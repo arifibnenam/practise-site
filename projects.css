@@ -1,0 +1,82 @@
+body{
+    background-color: gainsboro;
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    margin-top: 50px;
+}
+.top{
+    margin-top: 50px;
+    display: flex;
+}
+.half-width{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 30px 20px;
+}
+.learn-item p{
+    display: inline;
+    margin-left: 5px;
+    padding: 5px 5px;
+    background-color: gray;
+}
+.link-button{
+    margin-top: 30px;
+}
+.link-button a{
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 10px 10px;
+    background-color: white;
+    color: #0b752b;
+    font-weight: 700;
+    border: 1px solid #0b752b;
+}
+.link-button a:hover{
+    background-color: #0b752b;
+    color: white;
+}
+#Download-button{
+    background-color: #0b752b;
+    color: white;
+}
+.footer-section{
+    padding-top: 20px;
+    color: black;
+    display: flex;
+}
+.footer-link{
+    margin-top: 30px;
+}
+.footer-link a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    color: #0b752b;
+    font-size: 20px;
+    width: 80px;
+    padding: 5px;
+}
+.footer-link a:hover{
+    color: white;
+    background-color: #0b752b;
+}
+footer{
+    width: 100%;
+    height: 320px;
+    background-color: gainsboro;
+}
+#copy-right{
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+.half-width-footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80%;
+}

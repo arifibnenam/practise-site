@@ -1,0 +1,101 @@
+.header-button a{
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    box-shadow: 10px 10px 40px rgb(43, 31, 31);
+    
+}
+.header-button{
+    margin-left: 400px;
+    padding-top: 35px;
+    
+}
+.site-header{
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #3f54da;
+    
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgb(46, 46, 153), blue);
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+.main{
+    height: 540px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+#half-width-text{
+    margin-top: 50px;
+    margin-right: 100px;
+    color: gainsboro;
+}
+.user-review{
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+.half-width-second{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.half-width-second img{
+    width: 600px;
+}
+#half-width-second-text{
+    font-size: 40px;
+    margin-left: 50px;
+    text-align: center;
+}
+.footer-section{
+    padding-top: 20px;
+    color: white;
+    display: flex;
+}
+.footer-link{
+    margin-top: 30px;
+}
+.footer-link a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    width: 80px;
+    padding: 5px;
+}
+.footer-link a:hover{
+    color: rgb(222, 241, 240);
+    background-image: linear-gradient(rgb(46, 46, 153), blue);
+}
+footer{
+    width: 100%;
+    height: 320px;
+    background-color: #3f54da;
+}
+#copy-right{
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
